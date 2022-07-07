@@ -7,7 +7,7 @@ namespace Metodlar
         static void Main(string[] args)
         {
             string urunAdi = "Elma";
-            double fiyati = 15;
+            double fiyati = 10;
             string aciklama = "Amasya elması";
 
             string[] meyveler = new string[] { };
