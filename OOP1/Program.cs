@@ -20,15 +20,13 @@ namespace OOP1
             //case sensitive - küçük büyük harf duyarlı
             ProductManager productManager = new ProductManager();
             productManager.Add(product1);
-            Console.WriteLine(product1.ProductName);//100
+            Console.WriteLine(product1.ProductName);
 
-            int sayi = 100; 
-            productManager.BiseyYap(sayi);
-            Console.WriteLine(sayi);
+          
 
             //int,double,bool... değer tip
             //diziler, class, abstract class, interface ... referans tip
-
+            //ref out
         }
     }
 }
